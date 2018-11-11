@@ -1,0 +1,7 @@
+[user]
+	name = nnuti
+	email = nicola.nuti@bsse.ethz.ch
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
