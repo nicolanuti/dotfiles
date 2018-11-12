@@ -1,20 +1,26 @@
-set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
-filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
-set t_Co=256              " enable 256-color mode.
-syntax enable             " enable syntax highlighting (previously syntax on).
-colorscheme desert        " set colorscheme
-set number                " show line numbers
-set laststatus=2          " last window always has a statusline
-filetype indent on        " activates indenting for files
-set nohlsearch            " Don't continue to highlight searched phrases.
-set incsearch             " But do highlight as you type your search.
-set ignorecase            " Make searches case-insensitive.
-set ruler                 " Always show info along bottom.
-set autoindent            " auto-indent
-set tabstop=4             " tab spacing
-set softtabstop=4         " unify
-set shiftwidth=4          " indent/outdent by 4 columns
-set shiftround            " always indent/outdent to the nearest tabstop
-set expandtab             " use spaces instead of tabs
-set smarttab              " use tabs at the start of a line, spaces elsewhere
-set nowrap                " don't wrap text
+set nocompatible           " Vim defaults rather than vi ones. Keep at top.
+filetype plugin indent on  " Enable filetype-specific settings.
+syntax enable              " Enable syntax highlighting.
+set backspace=2            " Make the backspace behave as most applications.
+set autoindent             " Use current indent for new lines.
+set display=lastline       " Show as much of the line as will fit.
+set wildmenu               " Better tab completion in the commandline.
+set wildmode=list:longest  " List all matches and complete to the longest match.
+set showcmd                " Show (partial) command in bottom-right.
+set expandtab              " Use spaces instead of tabs for indentation.
+set smarttab               " Backspace removes 'shiftwidth' worth of spaces.
+set number                 " Show line numbers.
+set wrap                   " Wrap long lines.
+set laststatus=2           " Always show the statusline.
+set ruler                  " Show the ruler in the statusline.
+set textwidth=80           " Wrap at n characters.
+set incsearch              " Jump to search match while typing.
+set hlsearch               " Highlight the last used search pattern.
+set ignorecase             " Searching with / is case-insensitive.
+set smartcase              " Disable 'ignorecase' if the term contains upper-case.
+set nrformats-=octal       " Remove octal support from 'nrformats'.
+set tabstop=4              " Size of a Tab character.
+set shiftwidth=4           " Use same value as 'tabstop'.
+set softtabstop=4          " Use same value as 'shiftwidth'.
+set scrolloff=5            " Minimum number of lines to keep above/below cursor.
+colorscheme desert         " set colorscheme
