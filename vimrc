@@ -24,3 +24,38 @@ set shiftwidth=4           " Use same value as 'tabstop'.
 set softtabstop=4          " Use same value as 'shiftwidth'.
 set scrolloff=5            " Minimum number of lines to keep above/below cursor.
 colorscheme desert         " set colorscheme
+
+" Store temporary files in ~/.vim/tmp
+set viminfo+=n~/.vim/tmp/viminfo
+set backupdir=$HOME/.vim/tmp/backup
+set dir=$HOME/.vim/tmp/swap
+set viewdir=$HOME/.vim/tmp/view
+if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif
+if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif
+if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
+
+" Persist undo history between Vim sessions.
+if has('persistent_undo')
+	set undodir=$HOME/.vim/tmp/undo
+	if !isdirectory(&undodir) | call mkdir(&undodir, 'p', 0700) | endif
+endif
+
+" Indent in visual and select mode automatically re-selects.
+vnoremap > >gv
+vnoremap < <gv
+
+" Go to the last cursor location when opening a file.
+augroup jump
+	autocmd BufReadPost *
+		\  if line("'\"") > 1 && line("'\"") <= line("$") && &ft !~# 'commit'
+			\| exe 'normal! g`"'
+		\| endif
+augroup end
+
+" Clean trailing whitespace.
+fun! s:trim_whitespace()
+	let l:save = winsaveview()
+	keeppatterns %s/\s\+$//e
+	call winrestview(l:save)
+endfun
+command! TrimWhitespace call s:trim_whitespace()
