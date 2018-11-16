@@ -1,12 +1,12 @@
 # Instructions
 
-0 Update to the latest version of macOS. 
-1 Run 01-xcode-install.sh from Terminal.app
-2 Restart the terminal and run 02-brew-install.sh (you should now see zsh if you
+0. Update to the latest version of macOS. 
+1. Run 01-xcode-install.sh from Terminal.app
+2. Restart the terminal and run 02-brew-install.sh (you should now see zsh if you
 run `echo $0`)
-3 Open iTerm2 and run 03-install-oh-my-zsh.sh, (you should now be on brew installed zsh.
+3. Open iTerm2 and run 03-install-oh-my-zsh.sh, (you should now be on brew installed zsh.
 To make sure run `echo $SHELL` and it should say ` /usr/local/bin/zsh`)
-4 Restart the terminal and run 04-make-symlinks.sh, when you restart again you
+4. Restart the terminal and run 04-make-symlinks.sh, when you restart again you
 should see al the oh-my-zsh colors.
 Copy your SSH keys to your ~/.ssh folder and make sure they have the correct permissions.
 
