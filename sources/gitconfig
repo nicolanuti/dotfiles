@@ -5,3 +5,4 @@
 	helper = osxkeychain
 [core]
 	editor = vim
+	excludesfile = /Users/nnuti/dotfiles/sources/.gitignore_global
