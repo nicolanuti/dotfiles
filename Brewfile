@@ -21,6 +21,7 @@ brew "youtube-dl"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "zsh"
+brew "mackup"
 
 # Apps
 
@@ -31,18 +32,8 @@ cask "caffeine"
 cask "mactex"
 cask "iterm2"
 cask "karabiner-elements"
+cask "typora"
 
 # Fonts
 
 cask "font-hack-nerd-font"
-
-# Mac App Store
-
-mas "BetterSnapTool", id: 417375580
-mas "iMovie", id: 408981434
-mas "Install macOS Mojave", id: 0
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Presentation Font Embedder", id: 1032355479
-mas "Todoist", id: 585829637

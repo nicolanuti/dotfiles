@@ -87,12 +87,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  iterm2
-  macports
-  man
   osx
-  python
-  composer
   zsh-syntax-highlighting
   zsh-autosuggestions
 )

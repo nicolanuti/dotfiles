@@ -15,4 +15,5 @@ brew tap homebrew/bundle
 brew bundle
 
 # Switch to brew installed zsh
+echo "Switching to the freshly installed brew zsh..."
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
