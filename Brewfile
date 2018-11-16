@@ -19,6 +19,7 @@ brew "python"
 brew "vim", args: ["with-override-system-vi"]
 brew "youtube-dl"
 brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions"
 brew "zsh"
 
 # Apps
@@ -28,6 +29,8 @@ cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask "caffeine"
 cask "mactex"
+cask "iterm2"
+cask "karabiner-elements"
 
 # Fonts
 
