@@ -898,6 +898,16 @@ defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
 #defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
 ###############################################################################
+# iTerm2.app
+###############################################################################
+
+# Specify the preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string
+"~/dotfiles/iterm2_profile"
+# Tell iTerm2 to use the custom preferences in the directory
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
@@ -922,6 +932,7 @@ for app in "Activity Monitor" \
 	"Transmission" \
 	"Tweetbot" \
 	"Twitter" \
+	"iTerm2" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
