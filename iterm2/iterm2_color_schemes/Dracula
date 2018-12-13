@@ -1,0 +1,117 @@
+{
+    'Selected Text Color' = {
+        'Green Component' = '1.000000';
+        'Blue Component' = '1.000000';
+        'Red Component' = '1.000000';
+    };
+    'Ansi 7 Color' = {
+        'Green Component' = '0.733333';
+        'Blue Component' = '0.733333';
+        'Red Component' = '0.733333';
+    };
+    'Cursor Text Color' = {
+        'Green Component' = '1.000000';
+        'Blue Component' = '1.000000';
+        'Red Component' = '1.000000';
+    };
+    'Ansi 15 Color' = {
+        'Green Component' = '1.000000';
+        'Blue Component' = '1.000000';
+        'Red Component' = '1.000000';
+    };
+    'Ansi 2 Color' = {
+        'Green Component' = '0.980392';
+        'Blue Component' = '0.482353';
+        'Red Component' = '0.313726';
+    };
+    'Ansi 8 Color' = {
+        'Green Component' = '0.333333';
+        'Blue Component' = '0.333333';
+        'Red Component' = '0.333333';
+    };
+    'Ansi 11 Color' = {
+        'Green Component' = '0.980392';
+        'Blue Component' = '0.549020';
+        'Red Component' = '0.945098';
+    };
+    'Bold Color' = {
+        'Green Component' = '0.902371';
+        'Blue Component' = '0.902371';
+        'Red Component' = '0.902371';
+    };
+    'Ansi 3 Color' = {
+        'Green Component' = '0.980392';
+        'Blue Component' = '0.549020';
+        'Red Component' = '0.945098';
+    };
+    'Ansi 9 Color' = {
+        'Green Component' = '0.333333';
+        'Blue Component' = '0.333333';
+        'Red Component' = '1.000000';
+    };
+    'Ansi 14 Color' = {
+        'Green Component' = '0.913725';
+        'Blue Component' = '0.992157';
+        'Red Component' = '0.545098';
+    };
+    'Background Color' = {
+        'Green Component' = '0.122153';
+        'Blue Component' = '0.159778';
+        'Red Component' = '0.117658';
+    };
+    'Ansi 10 Color' = {
+        'Green Component' = '0.980392';
+        'Blue Component' = '0.482353';
+        'Red Component' = '0.313726';
+    };
+    'Ansi 4 Color' = {
+        'Green Component' = '0.576471';
+        'Blue Component' = '0.976471';
+        'Red Component' = '0.741176';
+    };
+    'Cursor Color' = {
+        'Green Component' = '0.733333';
+        'Blue Component' = '0.733333';
+        'Red Component' = '0.733333';
+    };
+    'Ansi 13 Color' = {
+        'Green Component' = '0.474510';
+        'Blue Component' = '0.776471';
+        'Red Component' = '1.000000';
+    };
+    'Ansi 5 Color' = {
+        'Green Component' = '0.474510';
+        'Blue Component' = '0.776471';
+        'Red Component' = '1.000000';
+    };
+    'Ansi 0 Color' = {
+        'Green Component' = '0.000000';
+        'Blue Component' = '0.000000';
+        'Red Component' = '0.000000';
+    };
+    'Ansi 6 Color' = {
+        'Green Component' = '0.913725';
+        'Blue Component' = '0.992157';
+        'Red Component' = '0.545098';
+    };
+    'Selection Color' = {
+        'Green Component' = '0.278431';
+        'Blue Component' = '0.352941';
+        'Red Component' = '0.266667';
+    };
+    'Ansi 12 Color' = {
+        'Green Component' = '0.576471';
+        'Blue Component' = '0.976471';
+        'Red Component' = '0.741176';
+    };
+    'Foreground Color' = {
+        'Green Component' = '0.900323';
+        'Blue Component' = '0.900323';
+        'Red Component' = '0.900323';
+    };
+    'Ansi 1 Color' = {
+        'Green Component' = '0.333333';
+        'Blue Component' = '0.333333';
+        'Red Component' = '1.000000';
+    };
+}
